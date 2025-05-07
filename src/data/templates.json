@@ -1,0 +1,281 @@
+[
+  {
+    "id": "micropigmentacion_microblading",
+    "label": "Micropigmentación / Microblading",
+    "srcPages": [
+      "/assets/consents/micropigmentacion_microblading/page1.png",
+      "/assets/consents/micropigmentacion_microblading/page2.png",
+      "/assets/consents/micropigmentacion_microblading/page3.png",
+      "/assets/consents/micropigmentacion_microblading/page4.png",
+      "/assets/consents/micropigmentacion_microblading/page5.png"
+    ],
+    "imageWidth": 800,
+    "imageHeight": 1120,
+    "fields": [
+
+      {
+        "name": "nombre_apellidos",
+        "label": "Nombre, Apellidos",
+        "type": "text",
+        "page": 1,
+        "x": 275,
+        "y": 275,
+        "width": 150
+      },
+      {
+        "name": "DNI",
+        "label": "DNI",
+        "type": "text",
+        "page": 1,
+        "x": 490,
+        "y": 275,
+        "width": 150
+      },
+      {
+        "name": "direccion_localidad",
+        "label": "Dirección y Localidad",
+        "type": "text",
+        "page": 1,
+        "x": 285,
+        "y": 290,
+        "width": 150
+      },
+      {
+        "name": "telefono",
+        "label": "Teléfono",
+        "type": "text",
+        "page": 1,
+        "x": 190,
+        "y": 305,
+        "width": 150
+      },
+      {
+        "name": "salud_necesaria",
+        "type": "radio",
+        "page": 3,
+        "x": 110,
+        "y": 648
+        ,"options": ["SI"]
+      },
+      {
+        "name": "salud_necesaria",
+        "type": "radio",
+        "page": 3,
+        "x": 130,
+        "y": 648
+        ,"options": ["NO"]
+      },
+      {
+        "name": "grabacion_imagenes",
+        "type": "radio",
+        "page": 3,
+        "x": 110,
+        "y": 682
+        ,"options": ["SI"]
+      },
+      {
+        "name": "grabacion_imagenes",
+        "type": "radio",
+        "page": 3,
+        "x": 130,
+        "y": 682
+        ,"options": ["NO"]
+
+      },
+      {
+        "name": "Localidad",
+        "label": "Localidad",
+        "type": "text",
+        "page": 3,
+        "x": 135,
+        "y": 851,
+        "width": 60
+      },
+      {
+        "name": "Día",
+        "label": "Día",
+        "type": "text",
+        "page": 3,
+        "x": 250,
+        "y": 851,
+        "width": 30
+      },
+      {
+        "name": "Mes",
+        "label": "Mes",
+        "type": "text",
+        "page": 3,
+        "x": 312,
+        "y": 851,
+        "width": 30
+      },
+      {
+        "name": "Año",
+        "label": "Año",
+        "type": "text",
+        "page": 3,
+        "x": 377,
+        "y": 852,
+        "width": 30
+      },
+      {
+        "name": "firma_paciente_1",
+        "label": "Firma paciente (1)",
+        "type": "signature",
+        "page": 3,
+        "x": 115,
+        "y": 925,
+        "width": 150,
+        "height": 60
+      },
+      {
+        "name": "firma_tecnico_1",
+        "label": "Firma técnico (1)",
+        "type": "signature",
+        "page": 3,
+        "x": 415,
+        "y": 925,
+        "width": 150,
+        "height": 60
+      },
+
+
+      {
+        "name": "marca_pigmento",
+        "label": "Marca pigmento",
+        "type": "text",
+        "page": 4,
+        "x": 200,
+        "y": 190,
+        "width": 150
+      },
+      {
+        "name": "marca_aguja",
+        "label": "Marca aguja",
+        "type": "text",
+        "page": 4,
+        "x": 366,
+        "y": 205,
+        "width": 150},
+      {
+        "name": "lote_pigmento",
+        "label": "N°",
+        "type": "text",
+        "page": 4,
+        "x": 220,
+        "y": 250,
+        "width": 50
+      },
+      {
+        "name": "Sanitario",
+        "label": "Sanitario",
+        "type": "text",
+        "page": 4,
+        "x": 160,
+        "y": 263,
+        "width": 50
+      },
+      {
+        "name": "Lote",
+        "label": "Lote",
+        "type": "text",
+        "page": 4,
+        "x": 265,
+        "y": 263,
+        "width": 50
+      },
+      {
+        "name": "Aguja",
+        "label": "Aguja",
+        "type": "text",
+        "page": 4,
+        "x": 425,
+        "y": 263,
+        "width": 50
+      },
+      {
+        "name": "Lote2",
+        "label": "Lote",
+        "type": "text",
+        "page": 4,
+        "x": 625,
+        "y": 263,
+        "width": 50
+      },
+      {
+        "name": "zona_aplicacion",
+        "label": "Zona de aplicación",
+        "type": "text",
+        "page": 4,
+        "x": 160,
+        "y": 335,
+        "width": 300
+      },
+      {
+        "name": "presupuesto_global",
+        "label": "Presupuesto global",
+        "type": "text",
+        "page": 4,
+        "x": 531,
+        "y": 557,
+        "width": 50
+      },
+      {
+        "name": "resto_total",
+        "label": "Resto total",
+        "type": "text",
+        "page": 4,
+        "x": 133,
+        "y": 644,
+        "width": 50
+      },
+      {
+        "name": "fecha_dia",
+        "label": "Día",
+        "type": "text",
+        "page": 4,
+        "x": 166,
+        "y": 698,
+        "width": 30
+      },
+      {
+        "name": "fecha_mes",
+        "label": "Mes",
+        "type": "text",
+        "page": 4,
+        "x": 197,
+        "y": 698,
+        "width": 30
+      },
+      {
+        "name": "fecha_año",
+        "label": "Año",
+        "type": "text",
+        "page": 4,
+        "x": 238,
+        "y": 698,
+        "width": 40
+      },
+      {
+        "name": "firma_paciente_2",
+        "label": "Firma paciente (2)",
+        "type": "signature",
+        "page": 4,
+        "x": 100,
+        "y": 820,
+        "width": 200,
+        "height": 120
+      },
+      {
+        "name": "firma_tecnico_2",
+        "label": "Firma técnico (2)",
+        "type": "signature",
+        "page": 4,
+        "x": 420,
+        "y": 820,
+        "width": 200,
+        "height": 120
+      }
+    ]
+  }
+]
